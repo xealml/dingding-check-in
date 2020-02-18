@@ -5,14 +5,6 @@ adb shell input keyevent 224
 向上滑
 adb shell input swipe 500 1880 500 880
 
-# 解锁手机
-# adb shell input swipe 1040 1808 452 2420
-# adb shell input swipe 452 2420 452 1808
-# adb shell input swipe 452 2420 680 1808
-# adb shell input swipe 680 1808 1000 2100
-# adb shell input swipe 1000 2100 720 2300
-
-
 adb shell am start -n com.alibaba.android.rimet/.biz.LaunchHomeActivity
 sleep 5s
 
